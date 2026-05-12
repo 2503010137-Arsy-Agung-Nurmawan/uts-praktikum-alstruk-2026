@@ -1,77 +1,7 @@
-# UTS Praktikum Algoritma dan Struktur Data 2026
 
-## INFORMASI UJIAN
-- Mata Kuliah : Praktikum Algoritma dan Struktur Data
-- Semester    : Genap 2025/2026
-- Media Submit: GitHub Pull Request
-- Bahasa      : C++
-- IDE         : Dev C++
-
----
-
-# ATURAN PENGERJAAN
-
-1. Kerjakan secara individu.
-2. Dilarang menyalin pekerjaan mahasiswa lain.
-3. Program wajib dapat di-compile tanpa error.
-4. Gunakan struktur folder yang telah ditentukan.
-5. Push dan Pull Request wajib dilakukan sebelum deadline.
-
----
-
-# PEMBAGIAN SOAL
-
-- NIM GANJIL → Soal GANJIL
-- NIM GENAP → Soal GENAP
-
-File soal tersedia pada folder:
-
-```text
-SOAL/
-```
-
-# STRUKTUR PENGUMPULAN
-
-Mahasiswa wajib membuat folder sesuai format:
-
-```text
-Pengumpulan/
-├── KELAS A/
-│   └── 2503010001_WAHYU_ADIWIBOWO/
-│       ├── soal1.cpp
-│       └── soal2.cpp
-        └── README.md
-└── KELAS B/
-    └── 2503010001_WAHYU_ADIWIBOWO/
-        ├── soal1.cpp
-        └── soal2.cpp
-        └── README.md
-└── KELAS C/
-    └── 2503010001_WAHYU_ADIWIBOWO/
-        ├── soal1.cpp
-        └── soal2.cpp
-        └── README.md
-└── KELAS D/
-    └── 2503010001_WAHYU_ADIWIBOWO/
-        ├── soal1.cpp
-        └── soal2.cpp
-        └── README.md
-└── KELAS E/
-    └── 2503010001_WAHYU_ADIWIBOWO/
-        ├── soal1.cpp
-        └── soal2.cpp
-        └── README.md
-```
-
-# STRUKTUR FILE README.md
-
-```text
-# 2503010001 - WAHYU_ADIWIBOWO
 # 2503010137 - ARSY AGUNG NURMAWAN
 
 ## Informasi Pribadi
-- **NIM** : 2503010001
-- **Nama** : WAHYU_ADIWIBOWO
 - **Kelas** : A
 - *NIM* : 2503010137
 - *Nama* : ARSY AGUNG NURMAWAN
@@ -189,9 +119,6 @@ int main() {
     }
 
     return 0;
-}Collapse commentComment on lines R25 to R119coderabbitai[bot] commented on May 12, 2026 coderabbitai[bot]on May 12, 2026More actions⚠️ Potential issue | 🟡 Minor | ⚡ Quick win
-Wrap both C++ solutions in fenced code blocks to avoid broken Markdown rendering.
-#include lines are currently interpreted as headings, which breaks rendering and triggers MD018 lint warnings. Please wrap each solution in ```cpp fences.
 
 Suggested fix
  ### Soal 1
@@ -221,62 +148,7 @@ Suggested fix
  // 2503010137 ARSY AGUNG NURMAWAN
 +```
 
- *Pembahasan:*
-    
-      
-    
 
-      
-    
-
-    
-  
-
-Also applies to: 128-283
-
-🧰 Tools
-
-🪛 markdownlint-cli2 (0.22.1)
-[warning] 25-25: No space after hash on atx style heading
-(MD018, no-missing-space-atx)
-
-[warning] 26-26: No space after hash on atx style heading
-(MD018, no-missing-space-atx)
-
-[warning] 27-27: No space after hash on atx style heading
-(MD018, no-missing-space-atx)
-
-
-
-🤖 Prompt for AI Agents
-Verify each finding against current code. Fix only still-valid issues, skip the
-rest with a brief reason, keep changes minimal, and validate.
-
-In `@README.md` around lines 25 - 119, The README contains raw C++ source starting
-with `#include` lines (e.g., the blocks beginning with "#include <iostream>" and
-the second solution block) which Markdown treats as headings and causes MD018
-lint warnings; wrap each full C++ solution block in fenced code blocks using
-```cpp ... ``` so the `#include` lines are treated as code (apply this to both
-solution blocks around the content that includes symbols like struct Buku,
-main(), and the second solution starting with `#include` <iostream> and using
-namespace std;). Ensure the opening ```cpp appears immediately before the first
-`#include` and the closing ``` after the final comment (e.g., "//ARSY AGUNG
-NURMAWAN ..." and the second solution's final comment) so the entire snippet
-renders correctly.
-
-    
-      
-    
-
-      
-    
-
-    
-  
-
-
-
-ReactWrite a replyResolve comment
 //ARSY AGUNG NURMAWAN 2503010137
 
 
@@ -444,24 +316,3 @@ int main (){
 	return 0;
 }
 // 2503010137 ARSY AGUNG NURMAWAN
-
-
-*Pembahasan:*
--
-
----
-
-## SUMBER BELAJARs
-
-Sebutkan sumber belajar yang digunakan, contohnya:
-
-- Modul Praktikum Algoritma dan Struktur Data
-- Modul Pointer
-- Modul Rekursif
-- Modul Struktur Data Dasar
-- Buku Algoritma dan Pemrograman Modern
-- Video pembelajaran online (YouTube, Coursera, dll.)
-- Stack Overflow
-- Dokumentasi resmi bahasa C++
-```
-- isi
